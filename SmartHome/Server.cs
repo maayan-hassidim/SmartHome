@@ -22,7 +22,9 @@ namespace SmartHome
         /// <summary>
         /// A data structure for the usernames
         /// Use for check if a username is exist- O(1)
-        /// assumption: username is unique
+        /// 
+        /// 
+        /// : username is unique
         /// </summary>
         HashSet<string> usernames;
 
